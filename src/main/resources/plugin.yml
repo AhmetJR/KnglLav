@@ -1,0 +1,33 @@
+name: KnglLav
+version: '${project.version}'
+main: org.ahmetjr.kngllav.Main
+api-version: '1.16'
+commands:
+  başlat:
+    description: KnglLav başlatma komutu
+    usage: /başlat
+    permission: kngllav.command.başlat
+  ayarla:
+    description: KnglLav
+    usage: /ayarla
+    permission: kngllav.command.ayarlar
+    aliases: [ayarla]
+  kanat:
+    description: KnglLav
+    usage: /kanat
+    permission: kngllav.command.kanat
+    aliases: [kanat]
+  alan:
+    description: KnglLav
+    usage: /alan
+    permission: kngllav.command.alan
+    aliases: [alan]
+  baraç:
+    description: KnglLav
+    aliases: [baraç]
+  barkapat:
+    description: KnglLav
+    aliases: [barkapat]
+  yanbar:
+    description: Gösterge aç kapat
+
